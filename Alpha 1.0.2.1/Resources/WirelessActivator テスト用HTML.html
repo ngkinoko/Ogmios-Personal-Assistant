@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+<head>
+<script>
+var isEnable_WirelesActivator = false;
+var isMessage = false;
+</script>
+<title>Wireless Activator テスト用HTML for Alpha 1.0</title>
+</head>
+<body>
+<script src="http://www.ngkinoko.html.xdomain.jp/WirelessActivator.js"></script>
+<script>
+ if ( isEnable_WirelesActivator == false ){
+  alert("ネットに接続されていません。");
+ }
+ else if ( isEnable_WirelesActivator == true ){
+  alert("Wireless Activatorは使用できます。");
+ }
+
+ if ( isMessage == false ){
+  alert("メッセージ受信は行われていません。");
+ }
+ else if ( isMessage == true ){
+  alert("メッセージを受信しました。");
+ }
+</script>
+</body>
+</html>
